@@ -4,11 +4,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sahanaa K - AI/ML Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>My Portfolio</h1>
+    <div class="blur-blob blob-1"></div>
+    <div class="blur-blob blob-2"></div>
+    <div class="blur-blob blob-3"></div>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Sahanaa K</h1>
+            <p class="hero-subtitle">B.E CSE (AI & ML) | Aspiring Machine Learning Engineer & Developer</p>
+            <div class="contact-info">
+                <a href="tel:7010777203"><i class="fas fa-phone"></i> 7010777203</a>
+                <a href="mailto:sahanaak2024aiml@sece.ac.in"><i class="fas fa-envelope"></i>
+                    sahanaak2024aiml@sece.ac.in</a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container content-grid">
+        <!-- Education Section -->
+        <section class="glass-card section-animate" id="education">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>B.E CSE (AIML)</h3>
+                    <p class="timeline-meta">Sri Eshwar College of Engineering | 2024 - 2028</p>
+                    <p class="timeline-desc">CGPA: 8.00</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>HSC</h3>
+                    <p class="timeline-meta">Grace Matric Higher Secondary School | 2023 - 2024</p>
+                    <p class="timeline-desc">Score: 90.9%</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>SSLC</h3>
+                    <p class="timeline-meta">Grace Matric Higher Secondary School | 2021 - 2022</p>
+                    <p class="timeline-desc">Score: 94.8%</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section class="glass-card section-animate" id="internship">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <h3>Machine Learning Intern</h3>
+                    <p class="timeline-meta">Codsoft | 2025</p>
+                    <ul class="timeline-desc custom-list">
+                        <li>Working on real-world ML projects involving data preprocessing, model building, and
+                            evaluation.</li>
+                        <li>Applying algorithms such as regression, classification, and clustering to solve practical
+                            problems.</li>
+                        <li>Gaining hands-on experience in Python, data analysis, and machine learning workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="glass-card section-animate span-2" id="projects">
+            <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Mathgaze</h3>
+                        <span class="project-year">2025</span>
+                    </div>
+                    <p class="project-subtitle">Educational Math Game Web Application</p>
+                    <ul class="custom-list project-details">
+                        <li>Designed and developed an interactive math learning platform for children (ages 4–9)</li>
+                        <li>Conducted user preference analysis showing 70% of students prefer practical mobile-based
+                            learning</li>
+                        <li>Visualized insights using data-driven charts to justify gamified and adaptive learning
+                            features</li>
+                        <li>Integrated reward systems, adaptive difficulty, and parent monitoring dashboard</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>NoBunkZone</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <p class="project-subtitle">Student Leave & Attendance Management Portal</p>
+                    <ul class="custom-list project-details">
+                        <li>A modern web application designed to automate college attendance and leave processes.</li>
+                        <li>Students can track attendance, apply for leave, and stay updated with academic progress.
+                        </li>
+                        <li>Administrators can manage records, approve/reject applications, and generate UI reports.
+                        </li>
+                        <li>Ensures transparency with real-time updates and secure authentication workflows.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="glass-card section-animate span-2" id="skills">
+            <h2 class="section-title"><i class="fas fa-code"></i> Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span>C</span><span>C++</span><span>Python</span><span>Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span>Data Structures & Algorithms (DSA)</span><span>Object-Oriented Programming (OOP)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Visualization & ML</h3>
+                    <div class="skill-tags">
+                        <span>Matplotlib</span><span>Seaborn</span><span>NumPy</span><span>Pandas</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>VSCode</span><span>Git</span><span>GitHub</span><span>Figma</span><span>Canva</span><span>Excel</span><span>PowerPoint</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coding Platforms Section -->
+        <section class="glass-card section-animate" id="coding">
+            <h2 class="section-title"><i class="fas fa-laptop-code"></i> Coding Platforms</h2>
+            <div class="platform-list">
+                <div class="platform-item">
+                    <i class="fas fa-code branch-icon leetcode-color"></i>
+                    <div>
+                        <h4>Leetcode</h4>
+                        <p>Solved 90+ problems | Global rank: 15,94,138</p>
+                    </div>
+                </div>
+                <div class="platform-item">
+                    <i class="fab fa-hackerrank branch-icon hackerrank-color"></i>
+                    <div>
+                        <h4>Hacker Rank</h4>
+                        <p>C - Bronze Level</p>
+                    </div>
+                </div>
+                <div class="platform-item">
+                    <i class="fas fa-utensils branch-icon codechef-color"></i>
+                    <div>
+                        <h4>Codechef</h4>
+                        <p>Problem Solver - Bronze Badge</p>
+                    </div>
+                </div>
+                <div class="platform-item">
+                    <i class="fas fa-laptop branch-icon skillrack-color"></i>
+                    <div>
+                        <h4>Skill Rack</h4>
+                        <p>Solved 1000+ problems | 3 Certificates | 280+ Bronzes</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section class="glass-card section-animate" id="achievements">
+            <h2 class="section-title"><i class="fas fa-trophy"></i> Achievements & Certifs</h2>
+
+            <div class="sub-section">
+                <h3 class="sub-title">Achievements</h3>
+                <ul class="custom-list compact-list">
+                    <li><span class="highlight">Odoo Hackathon:</span> Short Listed to Final Level (among 200+ teams)
+                        <span class="year-badge">2025</span></li>
+                    <li><span class="highlight">AI Datathon:</span> Short Listed to Final Level (among 200+ teams) <span
+                            class="year-badge">2025</span></li>
+                    <li><span class="highlight">Paper Presentation:</span> 1st Place at KSR College of Engineering <span
+                            class="year-badge">2025</span></li>
+                    <li><span class="highlight">Paper Presentation:</span> 2nd Place at Karpagam Institute of Tech <span
+                            class="year-badge">2025</span></li>
+                    <li><span class="highlight">Project Presentation:</span> 1st Place at Sri Eshwar College of Eng
+                        <span class="year-badge">2024</span></li>
+                    <li><span class="highlight">Selfie Hackathon:</span> Short Listed to Final Level (among 300+ teams)
+                        <span class="year-badge">2024</span></li>
+                </ul>
+            </div>
+
+            <div class="sub-section mt-4">
+                <h3 class="sub-title">Certifications</h3>
+                <ul class="custom-list compact-list flex-list">
+                    <li><span>Zoho Young Creators</span> <span class="cert-meta">Zoho, 2025</span></li>
+                    <li><span>Python Developer</span> <span class="cert-meta">Sololearn</span></li>
+                    <li><span>Robotics and AI</span> <span class="cert-meta">Great Learning, 2024</span></li>
+                    <li><span>Completion of C Training</span> <span class="cert-meta">IIT Bombay, 2024</span></li>
+                    <li><span>Completion of C++ Training</span> <span class="cert-meta">IIT Bombay, 2024</span></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sahanaa K. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Simple Intersection Observer for scroll animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section-animate').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 </body>
 
 </html>
